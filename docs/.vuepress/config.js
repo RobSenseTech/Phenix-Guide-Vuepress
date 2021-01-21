@@ -18,10 +18,10 @@ module.exports = {
             {
                 title: 'Your First Flight With Phenix',   
                 path: '/chapter1/',     
-                collapsable: true,
                 children: [
-                  '/chapter1/build-your-quadcopter',
-                  '/chapter1/download-the-codebase'
+                    '/chapter1/purchase-a-devkit',
+                    '/chapter1/build-your-quadcopter',
+                    '/chapter1/download-the-codebase'
                 ]
             },
             {
