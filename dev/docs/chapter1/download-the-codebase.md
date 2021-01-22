@@ -1,3 +1,8 @@
+---
+prev: /chapter1/build-your-quadcopter
+next: /chapter1/build-the-firmware
+---
+
 # Download the codebase
 
 ```text

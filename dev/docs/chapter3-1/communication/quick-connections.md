@@ -1,3 +1,8 @@
+---
+prev: / 
+next: /chapter1/purchase-a-devkit
+---
+
 # Quick Connections
 
 ![Quick Connections](../../.vuepress/public/QuickConnections.png)  

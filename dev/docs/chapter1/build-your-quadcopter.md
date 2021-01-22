@@ -1,3 +1,8 @@
+---
+prev: /chapter1/purchase-a-devkit
+next: /chapter1/download-the-codebase
+---
+
 # Build your Quadcopter
 
 This section contains the instructions for assenbling the essential components of Copter on Phenix Pro Devkit \(V1.0\).

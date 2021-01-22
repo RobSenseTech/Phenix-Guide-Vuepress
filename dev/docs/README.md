@@ -1,3 +1,8 @@
+---
+prev: false 
+next: /chapter1/
+---
+
 ## Introducing Phenix Personal Edition
 
 The Phenix Personal Edition is an intelligent control, computing and networking platform for unmanned systems. It integrates a Xilinx Zynq SoC, which packaging a dual core ARM Cortex-A9 CPU and FPGA fabric on a signal chip.
