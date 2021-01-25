@@ -1,4 +1,5 @@
 ---
-prev: / 
-next: /chapter1/purchase-a-devkit
+prev: /chapter3-1/communication/faq
+next: /chapter3-1/edge-computing
 ---
+# Machine Learning

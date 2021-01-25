@@ -1,4 +1,6 @@
 ---
-prev: / 
-next: /chapter1/purchase-a-devkit
+prev: /chapter2/hardware/
+next: /chapter2/hardware/ps
 ---
+# Zynq Soc
+

@@ -1,6 +1,7 @@
+
 module.exports = {
     title: 'Phenix Guide',
-    base: '/Phenix-Guide-Vuepress/',
+    // base: '/Phenix-Guide-Vuepress/',
     plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom'],
     themeConfig: {
         smoothScroll: true,
@@ -9,7 +10,9 @@ module.exports = {
             { text: 'Robsense', link: 'http://www.robsense.com'}
         ],
         sidebarDepth: 0, // optional, defaults to 1
+        initialOpenGroupIndex: 1,
         sidebar: [
+            
             {
                 title: 'Introducing Phenix Personal Edition',   
                 path: '/',
@@ -17,7 +20,8 @@ module.exports = {
             },
             {
                 title: 'Your First Flight With Phenix',   
-                path: '/chapter1/',     
+                path: '/chapter1/',   
+                 
                 children: [
                     { title: 'Purchase a Phenix Pro', path: '/chapter1/purchase-a-devkit' },
                     { title: 'Build your Quadcopter', path: '/chapter1/build-your-quadcopter' },
@@ -27,7 +31,8 @@ module.exports = {
                     { title: 'Configure with Mission Planner', path: '/chapter1/configure-with-mission-planner' },
                     { title: 'Release Note', path: '/chapter1/release-note' },
                     { title: 'Become a Developer', path: '/chapter1/become-a-developer' }
-                ]
+                ],
+                
             },
             {
                 title: 'Basis of SW/HW co-design with Phenix', 
@@ -61,7 +66,8 @@ module.exports = {
                         ]
                     },
                     { title: 'Software Insight', path: '/chapter2/software-insight'}
-                ]
+                ],
+                
             },
             {
                 title: 'Robotics Control Stacks',
@@ -71,7 +77,8 @@ module.exports = {
                     { title: 'Unmanned Ground Vehicle', path: '/chapter3/unmanned-ground-vehicle-control' },
                     { title: 'Unmanned Underwater Vehicle', path: '/chapter3/unmanned-underwater-vehicle-control'},
                     { title: 'Unmanned Boat', path: '/chapter3/unmanned-boat-control' }
-                ]
+                ],
+                
             },
             {
                 title: 'Robotics Intelligence and IoT', 
@@ -87,12 +94,15 @@ module.exports = {
                             { title: 'Quick Connections', path: '/chapter3-1/communication/quick-connections' },
                             { title: 'Use Cases', path: '/chapter3-1/communication/use-cases' },
                             { title: 'FAQ', path: '/chapter3-1/communication/faq'}
-                        ]
+                        ],
+                        
                     },
                     { title: 'Machine Learning', path: '/chapter3-1/machine-learning'},
                     { title: 'Edge Computing', path: '/chapter3-1/edge-computing'}
                 ],
+                
             }
         ]
     }
 }
+

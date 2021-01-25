@@ -1,6 +1,6 @@
 ---
-prev: / 
-next: /chapter1/purchase-a-devkit
+prev: /chapter3-1/
+next: /chapter3-1/communication/
 ---
 
 # Machine Vision

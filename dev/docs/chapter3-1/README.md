@@ -1,6 +1,6 @@
 ---
-prev: / 
-next: /chapter1/purchase-a-devkit
+prev: /chapter3/unmanned-boat-control
+next: /chapter3-1/machine-vision
 ---
 
 # Robotics Intelligence and IoT

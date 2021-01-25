@@ -1,4 +1,5 @@
 ---
-prev: / 
-next: /chapter1/purchase-a-devkit
+prev: /chapter2/hardware/pl
+next: /chapter3/
 ---
+# Software Insight
