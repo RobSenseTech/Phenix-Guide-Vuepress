@@ -26,7 +26,6 @@ module.exports = {
                     { title: 'Build the Firmware', path: '/chapter1/build-the-firmware' },
                     { title: 'Program the controller', path: '/chapter1/program-the-controller' },
                     { title: 'Configure with Mission Planner', path: '/chapter1/configure-with-mission-planner' },
-                    { title: 'Release Note', path: '/chapter1/release-note' },
                     { title: 'Become a Developer', path: '/chapter1/become-a-developer' }
                 ],
                 
