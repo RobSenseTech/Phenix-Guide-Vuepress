@@ -1,7 +1,6 @@
 
 module.exports = {
     title: 'Phenix Guide',
-    // base: '/Phenix-Guide-Vuepress/',
     plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom'],
     themeConfig: {
         smoothScroll: true,
