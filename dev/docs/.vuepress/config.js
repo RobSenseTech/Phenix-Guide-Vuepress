@@ -10,16 +10,13 @@ module.exports = {
             { text: 'Robsense', link: 'http://www.robsense.com'}
         ],
         sidebarDepth: 0, // optional, defaults to 1
-        initialOpenGroupIndex: 1,
         sidebar: [
-            
             {
-                title: 'Introducing Phenix Personal Edition',   
-                path: '/',
-                collapsable: true, // optional, defaults to true
+                title: 'Introducing Phenix Personal Edition',   // Homepage
+                path: '/'
             },
             {
-                title: 'Your First Flight With Phenix',   
+                title: 'Your First Flight With Phenix',   //Chapter 1
                 path: '/chapter1/',   
                  
                 children: [
@@ -35,7 +32,7 @@ module.exports = {
                 
             },
             {
-                title: 'Basis of SW/HW co-design with Phenix', 
+                title: 'Basis of SW/HW co-design with Phenix',  //Chapter 2
                 path: '/chapter2/',     
                 children: [
                     {
@@ -70,7 +67,7 @@ module.exports = {
                 
             },
             {
-                title: 'Robotics Control Stacks',
+                title: 'Robotics Control Stacks', //Chapter 3
                 path: '/chapter3/',     
                 children: [
                     { title: 'Unmanned Aerial Vehicle', path: '/chapter3/unmanned-aerial-vehicle-control' },
@@ -81,7 +78,7 @@ module.exports = {
                 
             },
             {
-                title: 'Robotics Intelligence and IoT', 
+                title: 'Robotics Intelligence and IoT',  //Chapter 3-1
                 path: '/chapter3-1/',
                 children: [
                     { title: 'Machine Vision', path: '/chapter3-1/machine-vision'},
