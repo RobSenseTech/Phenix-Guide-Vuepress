@@ -97,6 +97,13 @@ module.exports = {
                     { title: 'Edge Computing', path: '/chapter3-1/edge-computing'}
                 ],
                 
+            },
+            {
+                title: 'RST-I800 5G Drone',
+                path: '/i8005g/',
+                children: [
+                    {title: 'Drone System Overview', path: '/i8005g/system-overview'} 
+                ]
             }
         ]
     }
