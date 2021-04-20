@@ -1,6 +1,6 @@
 ---
 prev: /chapter3/unmanned-boat-control
-next: ./rst-i800/
+next: ./i800/
 ---
 
 # Reference Unmmaned Systems

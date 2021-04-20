@@ -78,10 +78,10 @@ module.exports = {
                         path: '/chapter3/reference-unmanned-systems',
                         children: [
                             {
-                                title: 'RST-I800 5G Drone',
-                                path: '/chapter3/reference-unmanned-systems/rst-i800',
+                                title: 'i800-5G Drone',
+                                path: '/chapter3/reference-unmanned-systems/i800',
                                 children: [
-                                    {title: 'Drone System Overview', path: '/chapter3/reference-unmanned-systems/rst-i800/system-overview'} 
+                                    {title: 'Drone System Overview', path: '/chapter3/reference-unmanned-systems/i800/system-overview'} 
                                 ]
                             }
                         ]
