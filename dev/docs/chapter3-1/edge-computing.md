@@ -1,5 +1,5 @@
 ---
 prev: /chapter3-1/machine-learning
-next: /i8005g/
+next: false
 ---
 # Edge Computing
