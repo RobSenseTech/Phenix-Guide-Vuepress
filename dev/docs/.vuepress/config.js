@@ -72,7 +72,20 @@ module.exports = {
                     { title: 'Unmanned Aerial Vehicle', path: '/chapter3/unmanned-aerial-vehicle-control' },
                     { title: 'Unmanned Ground Vehicle', path: '/chapter3/unmanned-ground-vehicle-control' },
                     { title: 'Unmanned Underwater Vehicle', path: '/chapter3/unmanned-underwater-vehicle-control'},
-                    { title: 'Unmanned Boat', path: '/chapter3/unmanned-boat-control' }
+                    { title: 'Unmanned Boat', path: '/chapter3/unmanned-boat-control' },
+                    { 
+                        title: 'Reference Unmanned Systems',
+                        path: '/chapter3/reference-unmanned-systems',
+                        children: [
+                            {
+                                title: 'i800-5G Drone',
+                                path: '/chapter3/reference-unmanned-systems/i800',
+                                children: [
+                                    {title: 'Drone System Overview', path: '/chapter3/reference-unmanned-systems/i800/system-overview'} 
+                                ]
+                            }
+                        ]
+                    }
                 ],
                 
             },
