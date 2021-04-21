@@ -11,5 +11,7 @@ of drone and real time streaming videos.
 
 ## Features 
 - Built in 5G CPE，which allows drone has high bandwidth transmit
-- Equipped with a 30x zoom drone IP camera, up to 4K@30fps resolution video streaming
+- Equipped with a 30x zoom drone IP camera, up to 4K@20fps resolution video streaming
 - Powered by 22000mAh 6S lithium battery
+- Takeoff, fly and in-flight control via ground control system and web app
+- Mission planning through ground control system

@@ -1,5 +1,5 @@
 ---
-prev: /chapter3/reference-unmanned-systems/i800/system-overview
+prev: /chapter3/reference-unmanned-systems/i800/specs
 next: /chapter3-1/machine-vision
 ---
 

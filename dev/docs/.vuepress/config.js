@@ -81,7 +81,8 @@ module.exports = {
                                 title: 'i800-5G Drone',
                                 path: '/chapter3/reference-unmanned-systems/i800',
                                 children: [
-                                    {title: 'Drone System Overview', path: '/chapter3/reference-unmanned-systems/i800/system-overview'} 
+                                    {title: 'Drone System Overview', path: '/chapter3/reference-unmanned-systems/i800/system-overview'},
+                                    {title: 'Drone Specs', path: '/chapter3/reference-unmanned-systems/i800/specs'}
                                 ]
                             }
                         ]
