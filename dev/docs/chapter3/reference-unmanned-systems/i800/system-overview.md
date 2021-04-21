@@ -1,6 +1,6 @@
 ---
 prev: /chapter3/reference-unmanned-systems/i800/
-next: /chapter3-1/
+next: ./specs
 ---
 
 # Drone System Overview
