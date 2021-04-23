@@ -5,7 +5,7 @@ next: ./specs
 
 # Drone System Overview
 Image below is a overview of the whole system of i800-5G drone.
-![drone system overview](../../../.vuepress/public/dronesysmtem.png)
+![drone system overview](../../../.vuepress/public/pictures/chapter3/dronesysmtem.png)
 
 > **Mission Computer**</br>
 

@@ -15,7 +15,7 @@ Note: You can only modify one node at a time, multiple nodes, please modify them
 
 ### 1. Open the gateway serial port
 
-![Open the gateway](../../.vuepress/public/Openthegateway.png)  
+![Open the gateway](../../.vuepress/public/pictures/chapter3-1/Openthegateway.png)  
 1. Click on the "NETWORK" tab  
 2. Select the serial port number of the gateway connection  
 3. Click "Open" and "Success" is displayed in the lower right corner, indicating that the gateway has successfully accessed. At this point, the factory node can also be powered on.  
@@ -23,18 +23,18 @@ Note: You can only modify one node at a time, multiple nodes, please modify them
 
 ### 2. Add 0001 node to the gateway \(you can skip this step if you have added\)
 
-![Add 0001 node to the gateway](../../.vuepress/public/Add0001nodetothegateway.png) ![Add 0001 node to the gateway01](../../.vuepress/public/Add0001nodetothegateway01.png) 1. Switch to the "SETTING" tab 2. Click on "Gateway" 3. Enter the node MAC address: 0001, 4. Click "ADD". If you see the 0001 node in the white list below, the addition is successful. At this point, the factory node needs to be powered off and restarted. 5. Click on the "NETWORK" tab 6. Click Refresh to see if online node 0001 appears. If successful, go to step 3.
+![Add 0001 node to the gateway](../../.vuepress/public/pictures/chapter3-1/Add0001nodetothegateway.png) ![Add 0001 node to the gateway01](../../.vuepress/public/pictures/chapter3-1/Add0001nodetothegateway01.png) 1. Switch to the "SETTING" tab 2. Click on "Gateway" 3. Enter the node MAC address: 0001, 4. Click "ADD". If you see the 0001 node in the white list below, the addition is successful. At this point, the factory node needs to be powered off and restarted. 5. Click on the "NETWORK" tab 6. Click Refresh to see if online node 0001 appears. If successful, go to step 3.
 
 ### 3. Modify the drone MAC address
 
-![Modify the drone MAC address](../../.vuepress/public/ModifythedroneMACaddress.png) 1. Click on the "SETTING" tab 2. Click on "Drone" 3. Pull down and select the "0001" node 4. Fill in the new 4-digit MAC address 5. Click on "SET" and the prompt "Success" will pop up. Power off and restart the factory node, then refresh the online node list to view the modification. Note: If the new MAC address is not in the gateway whitelist, repeat the Add Gateway Whitelist operation in step 2 and refresh again.
+![Modify the drone MAC address](../../.vuepress/public/pictures/chapter3-1/ModifythedroneMACaddress.png) 1. Click on the "SETTING" tab 2. Click on "Drone" 3. Pull down and select the "0001" node 4. Fill in the new 4-digit MAC address 5. Click on "SET" and the prompt "Success" will pop up. Power off and restart the factory node, then refresh the online node list to view the modification. Note: If the new MAC address is not in the gateway whitelist, repeat the Add Gateway Whitelist operation in step 2 and refresh again.
 
 ## Case 2: Single drone manual control
 
 **Hardware**：Phenix Pro DevKit，RobSense RST330 research drone、SwarmLink gateway、SwarmLink node、PC  
 **Software**：EasySwarm2.0  
 Note: Before the drone is controlled by a single unit, you need to perform networking operations. Repeat steps 1 and 2 in Case 1 to complete the node addition. Once the drone node appears in the online list, you can proceed.  
-![Single drone manual control](../../.vuepress/public/Singledronemanualcontrol.png)  
+![Single drone manual control](../../.vuepress/public/pictures/chapter3-1/Singledronemanualcontrol.png)  
 1. Switch to the "SWARM" tab  
 2. Click the refresh button  
 3. The drone node appears in the list, left click to select  
@@ -49,7 +49,7 @@ Note: Before the drone is controlled by a single unit, you need to perform netwo
 **Hardware**：RobSense RST330 research drone，RobSense Phenix Pro DevKit，SwarmLink Gateway,SwarmLink Node,PC\(windows\).  
 **Software**：EasySwarm2.0  
 Note: Before swarm flight, you need to perform swarmLink networking and single-machine manual take-off and landing control test. For details, see Case 1 and Case 2.  
-![Automatically Swarming](../../.vuepress/public/AutomaticallySwarming.png)  
+![Automatically Swarming](../../.vuepress/public/pictures/chapter3-1/AutomaticallySwarming.png)  
 1. Fill in the longitude, latitude, and altitude of the base point. The longitude and latitude need to be accurate to 6 digits after the decimal point, and the height is an integer greater than or equal to 0.  
 2. Import flight plan file, the format is csv, can be opened with execl, there is "SwarmPlan-3Drones.csv" under the software root directory, which can be used as a test file to directly import flight. You can also write your own flight files according to the flight plan file format specification.  
 3. Separate the drones on the ground, pay attention to the order of the drones \(for example, the order of the demo files is from north to south, in the order of 1, 2, 3\), click the "START" button. The drone will automatically execute the flight plan file at set intervals.  
@@ -59,9 +59,9 @@ Note: The drone's ARM, TAKEOFF, GOTO, RTL and other operations can be completed 
 
 ### Flight plan file preparation instructions:
 
-![Flight plan file01](../../.vuepress/public/Flightplanfile01.png)  
+![Flight plan file01](../../.vuepress/public/pictures/chapter3-1/Flightplanfile01.png)  
 Demo flight plan files are stored in the software directory. The following are flight file format specifications:  
-![Flight plan file02](../../.vuepress/public/Flightplanfile02.png)  
+![Flight plan file02](../../.vuepress/public/pictures/chapter3-1/Flightplanfile02.png)  
 Column A - Serial number: starting from 1 and filling in ascending order.  
 Column B - Tip: Plain text content, only used to prompt the instruction of the line, improve readability.  
 Column C - Instruction: Includes ARM, TAKEOFF, GOTO, RTL. Only one flight instruction is allowed in a row.  

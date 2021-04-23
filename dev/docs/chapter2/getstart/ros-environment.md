@@ -34,25 +34,25 @@ umount /media/[PC username]/[sd label]
 
 Open gparted, and select SD:
 
-![-dev-sda - GParted\_001](../../.vuepress/public/-dev-sda-GParted_001.png)
+![-dev-sda - GParted\_001](../../.vuepress/public/pictures/chapter2/-dev-sda-GParted_001.png)
 
 Select current fat32 parition, and delete it:
 
-![-dev-sda - GParted\_006](../../.vuepress/public/-dev-sda-GParted_006.png)
+![-dev-sda - GParted\_006](../../.vuepress/public/pictures/chapter2/-dev-sda-GParted_006.png)
 
 Create two new partiton:
 
 First, fat32 partition, 200M, Primary Partition, Free space preceding is 4M, Label is "boot"
 
-![Create new Partition\_009](../../.vuepress/public/CreatenewPartition_009.png)
+![Create new Partition\_009](../../.vuepress/public/pictures/chapter2/CreatenewPartition_009.png)
 
 Second, ext4 partition, Primary Partition, Free space preceding is 0, Label is "rootfs"
 
-![Create new Partition\_010](../../.vuepress/public/CreatenewPartition_010.png)
+![Create new Partition\_010](../../.vuepress/public/pictures/chapter2/CreatenewPartition_010.png)
 
 Finish with button below
 
-![-dev-sda - GParted\_012](../../.vuepress/public/-dev-sda-GParted_012.png)
+![-dev-sda - GParted\_012](../../.vuepress/public/pictures/chapter2/-dev-sda-GParted_012.png)
 
 ### 3.1.2 Install Rootfs To SD
 
@@ -94,7 +94,7 @@ set bootargs 'console=ttyPS0,115200 maxcpus=1 root=/dev/mmcblk0p2 rw earlyprintk
 
 Boot system:
 
-![Screenshot from 2017-06-23 15-36-14](../../.vuepress/public/15-36-14.png)
+![Screenshot from 2017-06-23 15-36-14](../../.vuepress/public/pictures/chapter2/15-36-14.png)
 
 ## 3.2 Install ROS Kinetic
 
@@ -127,7 +127,7 @@ Test:
 ping www.baidu.com
 ```
 
-![Screenshot from 2017-06-23 16-29-13](../../.vuepress/public/16-29-13.png)
+![Screenshot from 2017-06-23 16-29-13](../../.vuepress/public/pictures/chapter2/16-29-13.png)
 
 ### 3.2.2 Setup sources.list
 
@@ -155,7 +155,7 @@ Install Ros-Base:
 sudo apt-get install ros-kinetic-ros-base
 ```
 
-![Screenshot from 2017-06-23 16-34-57](../../.vuepress/public/16-34-57.png)
+![Screenshot from 2017-06-23 16-34-57](../../.vuepress/public/pictures/chapter2/16-34-57.png)
 
 ### 3.2.5 Initialize rosdep
 
@@ -185,7 +185,7 @@ sudo apt-get install python-rosinstall
 printenv | grep ROS
 ```
 
-![Screenshot from 2017-06-23 19-26-44](../../.vuepress/public/19-26-44.png)
+![Screenshot from 2017-06-23 19-26-44](../../.vuepress/public/pictures/chapter2/19-26-44.png)
 
 ## 3.3 Wakeup CPU1
 
@@ -212,5 +212,5 @@ echo "robsense" | sudo -S ./rwmem.elf  0xfffffff0 0x1a000000
 
 Insert SD card to devkit, and power on:
 
-![Screenshot from 2017-06-26 16-59-21](../../.vuepress/public/16-59-21.png)
+![Screenshot from 2017-06-26 16-59-21](../../.vuepress/public/pictures/chapter2/16-59-21.png)
 

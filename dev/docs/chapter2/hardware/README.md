@@ -4,19 +4,19 @@ next: /chapter2/hardware/zynq-soc
 ---
 # Hardware Insight
 
-![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/EN_1.png)
+![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/pictures/chapter2/EN_1.png)
 
-![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/EN_2.png)
+![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/pictures/chapter2/EN_2.png)
 
-![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/EN_3.png)
+![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/pictures/chapter2/EN_3.png)
 
-![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/EN_4.png)
+![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/pictures/chapter2/EN_4.png)
 
-![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/bootmode.png)
+![PhenixPro DevKit V1.0 I/O distribution](../../.vuepress/public/pictures/chapter2/bootmode.png)
 
 ## 1.1. GH connector pin sequence description
 
-![GH connector](../../.vuepress/public/GH.jpg)
+![GH connector](../../.vuepress/public/pictures/chapter2/GH.jpg)
 
 The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, MiniHDMI, Cameralink, TF socket, MircoUSB using the standard connector, the rest are used GH connector . The picture is a diagram of the GH connector,, the first foot on the left is defined as PIN1, all GH form interface on PhenixPRO are defined in this order.
 
@@ -130,13 +130,13 @@ PhenixPRO provides all the way GPS expansion interface, the interface uses the U
 
 \[PhenixPRO provides eight-way PWM form of electrical governor interface, unified use of 2.54mm pitch header. Each PWM pin is defined as follows:\]
 
-![PWM](../../.vuepress/public/EN_3.png)
+![PWM](../../.vuepress/public/pictures/chapter2/EN_3.png)
 
 ## 1.11.SBUS
 
 PhenixPRO provides a SBUS input, a SBUS output interface, using 2.54mm pin spacing leads. Specific definitions are as follows:
 
-![SBUS](../../.vuepress/public/EN_2.png)
+![SBUS](../../.vuepress/public/pictures/chapter2/EN_2.png)
 
 ## 1.12.Console
 
@@ -164,5 +164,5 @@ PhenixPRO provides a switch for configuring the BOOTmode. Defined as follows:
 
 Specific configuration information see below, the board currently supports SD card to start.
 
-![boot mode setting](../../.vuepress/public/6.png)
+![boot mode setting](../../.vuepress/public/pictures/chapter2/6.png)
 

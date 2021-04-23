@@ -10,7 +10,7 @@ _Mission Planner_ is a full-featured ground station application for the ArduPilo
 
 ### What is Mission Planner
 
-![flight\_data](../../.vuepress/public/mission_planner_flight_data.jpg)
+![flight\_data](../../.vuepress/public/pictures/chapter2/mission_planner_flight_data.jpg)
 
 _Mission Planner_ is a ground control station for Plane, Copter and Rover. It is compatible with Windows only. _Mission Planner_ can be used as a configuration utility or as a dynamic control supplement for your autonomous vehicle.
 
@@ -24,13 +24,13 @@ Download the [latest Mission Planner installer from here](http://firmware.ardupi
 
 Open the Microsoft installer file \(.msi\) and select **Run** to run the installation utility.
 
-![installation](../../.vuepress/public/installation.png)
+![installation](../../.vuepress/public/pictures/chapter2/installation.png)
 
 Follow the instructions to complete the setup process. The installation utility will automatically install any necessary software drivers. If you receive a DirectX installation error, please update your DirectX plug-in from the DirectX Download Center.
 
 If you receive the warning pictured here, select **Install this driver software anyway** to continue.
 
-![driver\_installation\_warning](../../.vuepress/public/driver_installation_warning.png)
+![driver\_installation\_warning](../../.vuepress/public/pictures/chapter2/driver_installation_warning.png)
 
 _Mission Planner_ is normally installed in the **C:\Program Files \(x86\)\APM Planner** folder or the **C:\Program Files\APM Planner** folder. That is where your log files folder is located.
 

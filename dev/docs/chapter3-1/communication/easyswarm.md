@@ -28,7 +28,7 @@ EasySwarm offers an open-source ground control software, with which developers c
 ## Hardware
 
 SwarmLink DevKit Gateway  
-![SwarmLink DevKit Gateway](../../.vuepress/public/SwarmLinkDevKitGateway.png) 
+![SwarmLink DevKit Gateway](../../.vuepress/public/pictures/chapter3-1/SwarmLinkDevKitGateway.png) 
 
 SwarmLink DevKit Node  
-![SwarmLink Devkit Node](../../.vuepress/public/SwarmLinkDevkitNode.png)
+![SwarmLink Devkit Node](../../.vuepress/public/pictures/chapter3-1/SwarmLinkDevkitNode.png)

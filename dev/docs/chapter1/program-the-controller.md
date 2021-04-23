@@ -20,13 +20,13 @@ Devkit support boot from sd card, copy these file to sd card:
 
 set DIP switch like the image below\(it means boot from sd card\):
 
-![webwxgetmsgimg](../.vuepress/public/devkit-boot.jpg)
+![webwxgetmsgimg](../.vuepress/public/pictures/chapter1/devkit-boot.jpg)
 
 And the he print information is similar to general Linux startup information.
 
 ## 2.Connect UAV Components
 
-![devkit](../.vuepress/public/devkit.jpg)
+![devkit](../.vuepress/public/pictures/chapter1/devkit.jpg)
 
 As red words in image above, we can connect UAV component like this:
 

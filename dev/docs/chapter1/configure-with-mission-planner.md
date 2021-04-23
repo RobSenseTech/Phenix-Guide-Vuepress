@@ -16,19 +16,19 @@ To establish a connection you must first choose the communication method/channel
 >
 > The driver for your connection hardware must be present on Windows as this makes your connection’s COM port and default data rate available to _Mission Planner_.
 
-![redio-laptop](../.vuepress/public/new-radio-laptop.jpg)
+![redio-laptop](../.vuepress/public/pictures/chapter1/new-radio-laptop.jpg)
 
 _Connection using SiK Radio from 3DR_
 
 On _Mission Planner_, the connection and data rate are set up using the drop down boxes in the upper right portion of the screen.
 
-<!-- ![ConnectButton](../.vuepress/public/MisionPlanner_ConnectButton.png) -->
+<!-- ![ConnectButton](../.vuepress/public/pictures/chapter1/MisionPlanner_ConnectButton.png) -->
 
 Once you’ve attached the USB or Telemetry Radio, Windows will automatically assign your Devkit a COM port number, and that will show in the drop-down menu \(the actual number does not matter\). The appropriate data rate for the connection is also set \(typically the USB connection data rate is 11520 and the radio connection rate is 57600\).
 
 Select the desired port and data rate and then press the Connect button to connect to the DevKit. After connecting _Mission Planner_ will download parameters from the DevKit and the button will change to Disconnect as shown:
 
-![DisconnectButton](../.vuepress/public/MisionPlanner_DisconnectButton.png)
+![DisconnectButton](../.vuepress/public/pictures/chapter1/MisionPlanner_DisconnectButton.png)
 
 > Tip
 >
@@ -52,7 +52,7 @@ If _Mission planner_ is unable to connect:
   * For any modern flight controller \(Pixhawk, NAVIO2, etc\) select the button Pixhawk/PX4.
   * For APM 2.6, select APM with External Compass.
 
-    ![CompassCalibration\_MainScreen](../.vuepress/public/MissionPlanner_CompassCalibration_MainScreen.png)
+    ![CompassCalibration\_MainScreen](../.vuepress/public/pictures/chapter1/MissionPlanner_CompassCalibration_MainScreen.png)
 
     _Mission Planner: Compass Calibration_
 
@@ -64,7 +64,7 @@ If _Mission planner_ is unable to connect:
 
 Copter-3.4 \(and higher\) supports “Onboard Calibration” meaning that the calibration routine runs on the flight controller. This method is more accurate than the older “Offboard Calibration” \(aka “Live Calibration”\) which runs on the ground station because in addition to offsets, scaling is also calculated.
 
-![Onboard](../.vuepress/public/CompassCalibration_Onboard.png)
+![Onboard](../.vuepress/public/pictures/chapter1/CompassCalibration_Onboard.png)
 
 To perform the onboard calibration:
 
@@ -72,7 +72,7 @@ To perform the onboard calibration:
 * if your flight controller has a buzzer attached you should hear a single tone followed by short beep once per second
 * hold the vehicle in the air and rotate it so that each side \(front, back, left, right, top and bottom\) points down towards the earth for a few seconds in turn
 
-  ![accel-calib-positions](../.vuepress/public/accel-calib-positions-e1376083327116.jpg)
+  ![accel-calib-positions](../.vuepress/public/pictures/chapter1/accel-calib-positions-e1376083327116.jpg)
 
 * as the vehicle is rotated the green bars should extend further and further to the right until the calibration completes
 * upon successful completion three rising tones will be emitted and a “Please reboot the autopilot” window will appear and you will need to reboot the DevKit before it is possible to arm the vehicle.
@@ -90,13 +90,13 @@ To use this older method:
 
   A window should pop-up showing you the state of the live calibration.
 
-  ![LiveCalibrationScreen](../.vuepress/public/MissionPlanner_CompassCalibration_LiveCalibrationScreen.png)
+  ![LiveCalibrationScreen](../.vuepress/public/pictures/chapter1/MissionPlanner_CompassCalibration_LiveCalibrationScreen.png)
 
   _Mission Planner: Live Compass Calibration_
 
 * The aim is to rotate the vehicle so that the coloured trail hits each of the white dots. One way to do this is to hold the vehicle in the air and rotate it slowly so that each side \(front, back, left, right, top and bottom\) points down towards the earth for a few seconds in turn.
 
-  ![accel-calib-positions](../.vuepress/public/accel-calib-positions-e1376083327116.jpg)
+  ![accel-calib-positions](../.vuepress/public/pictures/chapter1/accel-calib-positions-e1376083327116.jpg)
 
   _Compass Calibration Positions \(shown for Copter, but true for all vehicles\)_
 
@@ -106,7 +106,7 @@ To use this older method:
 
 1. Under Initial Setup \| Mandatory Hardware, select Accel Calibration from the left-side menu.
 
-   ![accelerometer\_calibration](../.vuepress/public/mp_accelerometer_calibration.png)
+   ![accelerometer\_calibration](../.vuepress/public/pictures/chapter1/mp_accelerometer_calibration.png)
 
    _Mission Planner: Calibrate Acceleration_
 
@@ -116,7 +116,7 @@ To use this older method:
 
    The calibration positions are: level, on right side, left side, nose down, nose up and on its back.
 
-   ![accel-calib-positions](../.vuepress/public/accel-calib-positions-e1376083327116.jpg)
+   ![accel-calib-positions](../.vuepress/public/pictures/chapter1/accel-calib-positions-e1376083327116.jpg)
 
    _Accelerometer Calibration Positions \(Copter\)_
 
@@ -148,7 +148,7 @@ Centre trims in manual RC mode before preforming RC calibration. If trims are no
 
 Open _Mission Planner_’s **INITIAL SETUP \| Mandatory Hardware \| Radio Calibration** screen. If your RC receiver \(Rx\) and transmitter \(Tx\) are bound, you should see the green bars move when you move the transmitter sticks.
 
-![mp\_radio\_calibration](../.vuepress/public/mp_radio_calibration.png)
+![mp\_radio\_calibration](../.vuepress/public/pictures/chapter1/mp_radio_calibration.png)
 
 MissionPlanner: Radio Calibration Screen \(Copter\)
 
@@ -167,13 +167,13 @@ MissionPlanner: Radio Calibration Screen \(Copter\)
 
    _Mission Planner_ will display a prompt to check radio control equipment is on, battery is not connected, and propellers are not attached. Select **OK**.
 
-   ![calibrate\_radio](../.vuepress/public/mp_calibrate_radio.jpg)
+   ![calibrate\_radio](../.vuepress/public/pictures/chapter1/mp_calibrate_radio.jpg)
 
    _Mission Planner: Select Calibrate Radio and OK to begin calibrating._
 
 3. Move the control sticks and toggle switches on your transmitter to their limits of travel and observe the results on the radio calibration bars. Red lines will appear across the calibration bars to indicate maximum and minimum values:
 
-   ![click\_when\_done](../.vuepress/public/mp_radio_calibration_click_when_done.jpg)
+   ![click\_when\_done](../.vuepress/public/pictures/chapter1/mp_radio_calibration_click_when_done.jpg)
 
    _Mission Planner: Input range marked with red lines_
 
@@ -189,7 +189,7 @@ MissionPlanner: Radio Calibration Screen \(Copter\)
 
    _Mission Planner_ will show a summary of the calibration data. Normal values are around 1100 for minimums and 1900 for maximums.
 
-   ![radi-calib-results](../.vuepress/public/radi-calib-results.png)
+   ![radi-calib-results](../.vuepress/public/pictures/chapter1/radi-calib-results.png)
 
    _Mission Planner: Radio Calibration Results_
 

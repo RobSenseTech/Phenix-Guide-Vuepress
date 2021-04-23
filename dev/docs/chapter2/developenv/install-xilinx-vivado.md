@@ -68,37 +68,37 @@ sudo ./xsetup
 
 click Next
 
-![Screenshot from 2017-03-13 15-47-10](../../.vuepress/public/15-47-10.png)
+![Screenshot from 2017-03-13 15-47-10](../../.vuepress/public/pictures/chapter2/15-47-10.png)
 
 select three "I Agree" and Next
 
-![Screenshot from 2017-03-13 15-50-30](../../.vuepress/public/15-50-30.png)
+![Screenshot from 2017-03-13 15-50-30](../../.vuepress/public/pictures/chapter2/15-50-30.png)
 
 select third one, click Next
 
-![Screenshot from 2017-03-13 15-50-56](../../.vuepress/public/15-50-56.png)
+![Screenshot from 2017-03-13 15-50-56](../../.vuepress/public/pictures/chapter2/15-50-56.png)
 
 select "Software Development Kit \(SDK\)", click Next
 
-![Screenshot from 2017-03-13 15-52-18](../../.vuepress/public/15-52-18.png)
+![Screenshot from 2017-03-13 15-52-18](../../.vuepress/public/pictures/chapter2/15-52-18.png)
 
 choose installation directory, click Next
 
-![Screenshot from 2017-03-13 16-00-03](../../.vuepress/public/16-00-03.png)
+![Screenshot from 2017-03-13 16-00-03](../../.vuepress/public/pictures/chapter2/16-00-03.png)
 
 click install
 
-![Screenshot from 2017-03-13 16-00-38](../../.vuepress/public/16-00-38.png)
+![Screenshot from 2017-03-13 16-00-38](../../.vuepress/public/pictures/chapter2/16-00-38.png)
 
-![Screenshot from 2017-03-13 16-01-19](../../.vuepress/public/16-01-19.png)
+![Screenshot from 2017-03-13 16-01-19](../../.vuepress/public/pictures/chapter2/16-01-19.png)
 
 after this, we need to load the license:
 
-![Screenshot from 2017-03-13 16-21-55](../../.vuepress/public/16-21-55.png)
+![Screenshot from 2017-03-13 16-21-55](../../.vuepress/public/pictures/chapter2/16-21-55.png)
 
 click "Load License" and "Copy License" \(You can find lic file in firmware path \[phenix\_devkit path\]/amp\_system/\)
 
-![Screenshot from 2017-03-13 16-23-26](../../.vuepress/public/16-23-26.png)
+![Screenshot from 2017-03-13 16-23-26](../../.vuepress/public/pictures/chapter2/16-23-26.png)
 
 select your license and click open.
 
@@ -172,7 +172,7 @@ Categories=System;
 
 **When launch SDK in Dash, it shows this error, it means you have to launch sdk with shell command "xsdk", otherwise, you may find that you can't close SDK**:
 
-![Screenshot from 2017-03-14 17-02-33](../../.vuepress/public/17-02-33.png)
+![Screenshot from 2017-03-14 17-02-33](../../.vuepress/public/pictures/chapter2/17-02-33.png)
 
 **If you launch SDK in terminal with command "xsdk", and there nothing happens, but shows information as follow:**
 
@@ -194,5 +194,5 @@ Launching SDK with command /opt/Xilinx/SDK/2016.4/eclipse/lnx64.o/eclipse -vmarg
 
 **just like this:**
 
-![Screenshot from 2017-03-15 00-25-33](../../.vuepress/public/00-25-33.png)
+![Screenshot from 2017-03-15 00-25-33](../../.vuepress/public/pictures/chapter2/00-25-33.png)
 

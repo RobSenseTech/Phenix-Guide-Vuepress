@@ -7,7 +7,7 @@ next: /chapter2/
 ## Register a developer account
 
 You can log on [http://dev.robsense.com](http://dev.robsense.com), and register a developer account in the dev forum, then post your questions. And we also have a [**Slack**](https://slack-invitation-auto.herokuapp.com) workspace for instant discussion among developers**.**  
-![](../.vuepress/public/forum.png)
+![](../.vuepress/public/pictures/chapter1/forum.png)
 
 ## Subscribe the PhenixPro Beta mailling list
 
